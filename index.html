@@ -4,15 +4,542 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <!-- bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon-hh.ico">
+
+    <!-- icons -->
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- bootstrap icons -->
 
     <link rel="stylesheet" href="style.css">
   
 </head>
 <body>
-    <div class="content">
+<!--     <div class="content">
         <h1>Welcome to My Webpage</h1>
         <p>This is some sample content for your webpage.</p>
         <a class="button" href="#">Click Me</a>
-    </div>
+    </div> -->
+
+
+    
+    <!-- navbar and carousel start -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/hh-logo.png" alt="Logo" class="logo">
+            </a>
+            <!-- Add a button for toggling the navbar on mobile -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Add the collapsible navbar content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about-us.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/residential.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/document.html">Document</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="home">
+
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-controls">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"
+                        style="background-image:url(img/sl1.png)"></li>
+                    <li data-target="#carousel" data-slide-to="1" style="background-image:url(img/sl2.png)"></li>
+                    <li data-target="#carousel" data-slide-to="2" style="background-image:url(img/sl3.png)"></li>
+
+                </ol>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <img src="img/left-arrow.svg" alt="Prev">
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <img src="img/right-arrow.svg" alt="Next">
+                </a>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image:url(img/sl1.png)">
+                    <div class="container">
+                        <h1>Welcome to Hubballi Homes</h1>
+                        <p>The Premier Destination for All Real Estate Needs</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url(img/sl2.png)">
+                    <div class="container">
+                        <h1>Welcome to Hubballi Homes</h1>
+                        <p>The Premier Destination for All Real Estate Needs</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url(img/sl3.png)">
+                    <div class="container">
+                        <h1>Welcome to Hubballi Homes</h1>
+                        <p>The Premier Destination for All Real Estate Needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- navbar and carousel end -->
+
+    <!-- about us section start -->
+
+    <section class="Abou-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/about.png" class="img-fluid" alt="">
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <p class="hd">AboutUs</p>
+                    <h2>Your Real Estate Experts: Hubbali Homes</h2>
+                    <p>Are you looking foe the perfect residental, commercial, oragriculture land for rent or
+                        sale in hubali? Look no fitrture! Hubbali Homes is yur trusted partner inthe real estate
+                        market.</p>
+                    <a href="/about-us.html">Know More</a>
+
+
+                    <div class="ltn__feature-item ltn__feature-item-3">
+                        <div class="ltn__feature-icon"><span>
+                                <img src="img/house.png" alt="" class="img-fluid">
+                            </span></div>
+                        <div class="ltn__feature-info">
+                            <h4>The Perfect Residency</a></h4>
+                            <p>Luxurious Living, Ideal Location, Exclusivity.</p>
+                        </div>
+                    </div>
+                    <div class="ltn__feature-item ltn__feature-item-3">
+                        <div class="ltn__feature-icon"><span>
+                                <img src="img/checked.png" alt="" class="img-fluid">
+                            </span></div>
+                        <div class="ltn__feature-info">
+                            <h4>Awesome area </a></h4>
+                            <p>Booming real estate market with endless opportunities.</p>
+                        </div>
+                    </div>
+                    <div class="ltn__feature-item ltn__feature-item-3">
+                        <div class="ltn__feature-icon"><span>
+                                <img src="img/planet.png" alt="" class="img-fluid">
+                            </span></div>
+                        <div class="ltn__feature-info">
+                            <h4>Greate Surroundings</a></h4>
+                            <p>Prime location with picturesque surroundings perfect for your dream home.</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row">
+                        <div class="col-md-4">
+                            <div class="ltn__feature-icon ">
+                                <span><i class="bi bi-house p-5"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="page">
+                                <h3>The perfect Residental</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.
+
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <div class="ltn__feature-icon ">
+                                <span><i class="bi bi-house p-5"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="page">
+                                <h3>Awesome Area</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <div class="ltn__feature-icon ">
+                                <span><i class="bi bi-house p-5"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="page">
+                                <h3>Greate Surroundings</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about us section end -->
+
+    <!-- property gallery -->
+
+    <section class="photos">
+        <div class="container">
+            <div class="row">
+                <div class="ph-info text-center">
+                    <p>EXPLORE</p>
+                    <h2>Property Gallery</h2>
+                </div>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-residential-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-residential" type="button" role="tab"
+                            aria-controls="pills-residential" aria-selected="true"><img src="img/res-icon.jpg"
+                                class="img-fluid" alt="">&nbsp;&nbsp;Residential</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-commercial-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-commercial" type="button" role="tab" aria-controls="pills-commercial"
+                            aria-selected="false"><img src="img/cm-icon.png" class="img-fluid"
+                                alt="">&nbsp;&nbsp;Commercial</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Agricultural-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-Agricultural" type="button" role="tab"
+                            aria-controls="pills-Agricultural" aria-selected="false"><img src="img/ag-icon.png"
+                                class="img-fluid" alt=""> Agricultural Land</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-residential" role="tabpanel"
+                        aria-labelledby="pills-residential-tab"><img src="img/residential.jpg"></div>
+                    <div class="tab-pane fade" id="pills-commercial" role="tabpanel"
+                        aria-labelledby="pills-commercial-tab">
+                        <img src="img/commercial.jpg">
+                    </div>
+                    <div class="tab-pane fade" id="pills-Agricultural" role="tabpanel"
+                        aria-labelledby="pills-Agricultural-tab">
+                        <img src="img/agriculture.jpg">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- end -->
+
+    <section class="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="p-text">OUR PROJECTS</p>
+                    <h2>Dream Living Space <br> Setting New Standards</h2>
+                </div>
+            </div>
+            <div class="row">
+
+                <div id="carouselOne" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-controls">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselOne" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselOne" data-slide-to="1"></li>
+                            <li data-target="#carouselOne" data-slide-to="2"></li>
+
+                        </ol>
+                        <a class="carousel-control-prev" href="#carouselOne" role="button" data-slide="prev">
+                            <img src="img/left-arrow.png" alt="" class="img-fluid">
+                        </a>
+                        <a class="carousel-control-next" href="#carouselOne" role="button" data-slide="next">
+                            <img src="img/right-arrows.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="img/pro1.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-md-4 project-info">
+                                    <h4>About Projects</h4>
+                                    <p>Discover exquisite homes, unmatched luxury, and a lifetime of unforgettable experiences in our prestigious projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="img/pro2.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-md-4 project-info">
+                                    <h4>About Projects</h4>
+                                    <p>Discover exquisite homes, unmatched luxury, and a lifetime of unforgettable experiences in our prestigious projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="img/pro3.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-md-4 project-info">
+                                    <h4>About Projects</h4>
+                                    <p>Discover exquisite homes, unmatched luxury, and a lifetime of unforgettable experiences in our prestigious projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our services section start -->
+
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <h3>What we can do </h3>
+                <h4>OUR SERVICES</h4>
+                <div class="col-md-4">
+                    <!-- <div class="box"> -->
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-house"></i>
+                            <h5>Buyer & Seller</h5>
+                            <p>Buying and selling a home can be a complex process, but with my guidance, it
+                                will be a breeze
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+
+                <div class="col-md-4">
+                    <!-- <div class="box"> -->
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-building"></i>
+                            <h5>House & Building</h5>
+                            <p>I am here to help you find the perfect property that matches your preferences and
+                                fits your budget.
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+
+                <div class="col-md-4">
+                    <!-- <div class="box"> -->
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-buildings"></i>
+                            <h5>All Properties</h5>
+                            <p> As your dedicated real estate agent, I'll guide you through an extensive selection
+                                of all properties
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our services section end -->
+
+    <!-- tessimonial section start  -->
+    <section class="testi">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testi-head">
+                        <h2>OUR REVIEW</h2>
+                        <h3>Client Testimonial</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <!-- <div class="test-data">
+                        <p>Working with the team at Hubbali Homes<br> was a fantastic exprience. They
+                            truly<br>understood our needs and performance<br>and helped us find our dream home.</p>
+                        <div class="Area">
+                            <img src="img/camera-1.jpg" class="img-fluid" alt="">
+                            <h2>Meghana Pawar</h2>
+                            <p>Client</p>
+                        </div>
+                    </div> -->
+                    <div id="carouselTwo" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-controls">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselTwo" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselTwo" data-slide-to="1"></li>
+                                <li data-target="#carouselTwo" data-slide-to="2"></li>
+
+                            </ol>
+
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p class="test-info">Working with the team at Hubbali Homes
+                                    was a fantastic exprience. They truly
+                                    understood our needs and performance
+                                    and helped us find our dream home.</p>
+                                <div class="client-name d-flex">
+                                    <img src="img/user.png" alt="" class="img-fluid">
+                                    <h4 class="title">
+                                        Megha Pawar <br>client
+                                    </h4>
+                                </div>
+                                <div class="div-test-icon">
+                                    <img src="img/quote.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="test-info">I can't thank Hubballi Homes enough for their outstanding service!
+                                    As a first-time homebuyer, I was quite nervous, but their agent guided me through
+                                    every step with patience and understanding.</p>
+                                <div class="client-name d-flex">
+                                    <img src="img/user.png" alt="" class="img-fluid">
+                                    <h4 class="title">
+                                        Megha Pawar <br>client
+                                    </h4>
+                                </div>
+                                <div class="div-test-icon">
+                                    <img src="img/quote.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="test-info">I highly recommend Hubbali Homes to anyone looking for a
+                                    trustworthy and reliable real estate agent. From the beginning, their agent was
+                                    attentive to my requirements and worked tirelessly to find me the perfect home.</p>
+                                <div class="client-name d-flex">
+                                    <img src="img/user.png" alt="" class="img-fluid">
+                                    <h4 class="title">
+                                        Megha Pawar <br>client
+                                    </h4>
+                                </div>
+                                <div class="div-test-icon">
+                                    <img src="img/quote.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attach"></div>
+            </div>
+    </section>
+
+    <!-- tessimonial section end  -->
+
+    <!-- footer section start -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="ftr-logo d-flex"><a href="/index.html"><img src="img/hh-logo.png" alt=""
+                                class="img-fluid"></a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="address d-flex">
+                        <i class="bi bi-geo-alt"></i>
+                        <p>Opp Marvel Signet R K Manohar flat-2nd flool Vidyanagar Shirur Park Road Hubballi-21</p>
+                    </div>
+                    <div class="address d-flex">
+                        <i class="bi bi-telephone"></i>
+                        <p><a href="https://wa.me/9945024417">9945024417</a> / <a href="tel:9538349415"> 9538349415</a>
+                        </p>
+                    </div>
+                    <div class="address d-flex">
+                        <i class="bi bi-envelope"></i>
+                        <p> <a href="mailto:hubbalihomes@gmail.com">Hubbalihomes@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-info">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons d-flex">
+                            <a href="https://goo.gl/maps/kZr1Ap94xgTMenVi7" class="social">
+                                <i class="bi bi-google"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@hubballihomes6716" class="social">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="https://www.facebook.com/hubballihomes.hubballihomes?mibextid=LQQJ4d" class="social">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://instagram.com/hubballi_homes?igshid=MzRlODBiNWFlZA" class="social">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/HomesHubballi" class="social">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/hubballi-homes-89546b1ba" class="social">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+
+                        </div>
+                        <p class="link"><a href="https://hubballihomes.com/">www.hubbalihomes.com</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="location">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.2651451133556!2d75.11295167852559!3d15.362120119892266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d72e6a702223%3A0x5c28b583e23b6717!2sMarvel%20Signet%2C%2080%20ft%20main%20Road%2C%2C%20Shirur%20Park%20Road%2C%20Shirur%20Park%2C%20Vidya%20Nagar%2C%20Hubballi%2C%20Karnataka%20580031!5e0!3m2!1sen!2sin!4v1691048064628!5m2!1sen!2sin"
+                            width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="copyright">
+                    <p>Copyright 2023 Hubballi Homes | All Rights Reserved | Developed by <a
+                            href="https://unitechnocompany.com/">UNITECHNO</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer section end -->
+
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
